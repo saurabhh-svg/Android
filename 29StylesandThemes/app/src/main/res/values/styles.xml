@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:colorPrimary">#B10000</item>
+        <item name="android:colorPrimaryDark">#000</item>
+        <item name="android:colorAccent">#00FF00</item>
+        <item name="android:background">#FDB4B4</item>
+    </style>
+    <style name="textViewStyles">
+        <item name="android:textColor">#B10000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:background">#ACEFF1</item>
+    </style>
+
+
+
+</resources>

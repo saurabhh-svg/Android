@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="18dp"
+        android:text="Select Country Yatharth  : "
+        android:textStyle="bold"
+        android:id="@+id/txtView"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rdGroup"
+        android:layout_below="@+id/txtView">
+        <RadioButton
+            android:id="@+id/rdbYear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="India"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbYear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="Pak"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbYear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="China"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbYear4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="Bhutan"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/rdGroup"
+        android:text="Get" />
+</RelativeLayout>
+
+
